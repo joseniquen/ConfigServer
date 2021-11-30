@@ -1,0 +1,16 @@
+server:
+  port: 8098
+
+spring:
+  application:
+    name: representative-microservice
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: ProyectBootCamp
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9999/eureka/
