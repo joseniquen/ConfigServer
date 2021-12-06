@@ -2,6 +2,8 @@ server:
     port: 9997
 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
@@ -10,4 +12,4 @@ spring:
           searchPaths: config-data-main
           default-label: main
           username: josecarlosniquenalvarado@gmail.com
-          password: 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
+          password: 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
