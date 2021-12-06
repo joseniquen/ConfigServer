@@ -8,8 +8,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/joseniquen/ProyectBootCamp
+          uri: https://github.com/joseniquen/ConfigServer
           searchPaths: config-data-main
           default-label: main
           username: josecarlosniquenalvarado@gmail.com
-          password: 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
+          password: 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
