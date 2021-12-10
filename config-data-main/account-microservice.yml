@@ -6,11 +6,11 @@ spring:
         name: account-microservice
     data:
         mongodb:
-            host: mongodb
+            host: localhost
             port: 27017
             database: BankAccount
 
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://eureka-server:8761/eureka/
+            defaultZone: http://localhost:9999/eureka/
