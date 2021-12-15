@@ -1,0 +1,17 @@
+
+server:
+  port: 8089
+
+spring:
+    application:
+        name: monedero-microservice
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            database: BankWallet
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
