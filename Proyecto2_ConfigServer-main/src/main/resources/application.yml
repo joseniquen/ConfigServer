@@ -1,5 +1,5 @@
 server:
-    port: 9997
+    port: 9996
 
 spring:
   application:
@@ -9,7 +9,8 @@ spring:
       server:
         git:
           uri: https://github.com/joseniquen/ConfigServer
+          #uri: https://github.com/joseniquen/ProyectBootCamp
           searchPaths: config-data-main
           default-label: main
           username: josecarlosniquenalvarado@gmail.com
-          password: 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
+          password: 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
